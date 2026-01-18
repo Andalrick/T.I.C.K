@@ -1,15 +1,12 @@
 # T.I.C.K
-A standalone tool to generate launchers (.desktop, Steam shortcuts) for Bottles-based Windows games.
-
-# T.I.C.K
 
 **Target Input Compatible Kickoff**
 
-T.I.C.K is a standalone tool to generate clean Linux launchers  
+A standalone tool to generate clean Linux launchers  
 (`.desktop`, Steam shortcuts) for Windows games installed via **Bottles**.
 
-It is designed to be used **independently**, or integrated as a building block
-inside other frontends (such as BeHolder).
+T.I.C.K is designed to be used **independently**, or integrated as a reusable
+building block inside other frontends.
 
 ---
 
@@ -61,10 +58,7 @@ Other applications can integrate it by:
 - Reusing its internal logic
 - Treating it as a “launcher generator service”
 
-T.I.C.K does not depend on BeHolder.  
-BeHolder does not depend strictly on T.I.C.K.
-
-They are designed to work **together**, but also to exist **independently**.
+T.I.C.K is fully usable on its own and does not require any specific frontend.
 
 ---
 
